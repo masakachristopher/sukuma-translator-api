@@ -1,0 +1,22 @@
+# Python
+*.pyc
+__pycache__/
+billinguals/
+venv/
+*.pyproj
+*.pydevproject
+
+# Flask
+instance/
+.build/
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+
+# Dependency directories
+env/
+
+#large files
+models/
