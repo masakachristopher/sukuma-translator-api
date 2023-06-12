@@ -30,11 +30,11 @@ Translates english and swahili phrases to sukuma tribe language
 
     [Download Resources](https://drive.google.com/file/d/1XyCll42PDSfq95yoLg4h8HxaFDvhiUVz/view?usp=sharing)
 
-7. Create folder with name `models` in the project root folder and place the `sukuma-translation` folder inside it
+7. Create folder with name `models` in the project root folder and place the `sukuma-translation` folder inside it. If named otherwise, such as `trans` please rename it to `sukuma-translation`
     ```
     - Root
         - models
-            - sukuma-translations
+            - sukuma-translation
         - src
         - app
         // others root files or folders
