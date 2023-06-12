@@ -26,15 +26,25 @@ Translates english and swahili phrases to sukuma tribe language
     ```shell
     pip install -r requirements.txt
     ```
-5. Download the model folder
+5. Download the resorces here `sukuma-translation` and `tokens` folders
 
-    [Download `sukuma-translation` Folder](https://drive.google.com/drive/folders/14l-SYoR5Y2OyoS50nvo2lltoC3t5CCE6?usp=sharing)
+    [Download Resources](https://drive.google.com/file/d/1XyCll42PDSfq95yoLg4h8HxaFDvhiUVz/view?usp=sharing)
 
-5. Create folder with name `models` in the root folder and place the `sukuma-translation` folder inside it
+7. Create folder with name `models` in the project root folder and place the `sukuma-translation` folder inside it
     ```
     - Root
         - models
             - sukuma-translations
+        - src
+        - app
+        // others root files or folders
+    ```
+8. Place folder with name `tokens` in the project root folder which contains the tokenizer files inside it
+    ```
+    - Root
+        - tokens
+            - input_tokenizer.pkl
+            - target_tokenizer.pkl
         - src
         - app
         // others root files or folders

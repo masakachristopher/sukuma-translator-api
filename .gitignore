@@ -20,3 +20,6 @@ env/
 
 #large files
 models/
+
+#others
+tokens/
